@@ -1,0 +1,10 @@
+name = "influencer-finder"
+main = "src/index.js"
+compatibility_date = "2024-01-01"
+
+[site]
+bucket = "./public"
+
+# Add environment variables for API keys (to be set via wrangler secret)
+[vars]
+ENVIRONMENT = "production"

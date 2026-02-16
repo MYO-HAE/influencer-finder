@@ -1,0 +1,16 @@
+{
+  "name": "influencer-finder",
+  "version": "1.0.0",
+  "description": "AI Influencer Finder for Korean EdTech/Parenting",
+  "scripts": {
+    "dev": "npx wrangler pages dev public --compatibility-date=2024-01-01",
+    "deploy": "npx wrangler pages deploy public --project-name=influencer-finder",
+    "tail": "npx wrangler tail"
+  },
+  "keywords": ["influencer", "edtech", "parenting", "korea"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}
